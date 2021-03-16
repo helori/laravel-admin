@@ -1,0 +1,37 @@
+{
+    "name": "helori/laravel-admin",
+    "description": "This package allows you to create admin users (different than your application's users)",
+    "keywords": ["laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Helori Lanos",
+            "email": "helori@algoart.fr",
+            "homepage": "https://algoart.fr"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/helori/laravel-admin.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Helori\\LaravelAdmin\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Helori\\LaravelAdmin\\AdminServiceProvider"
+            ]
+        }
+    }
+}
